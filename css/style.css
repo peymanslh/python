@@ -1,7 +1,10 @@
 .p-header {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
+    background-image: url("../images/bg.jpg");
+    background-position: right;
+    background-size: cover;
 }
 
 .p-subtitle {
@@ -16,11 +19,21 @@
     margin-top: 40px;
 }
 
-.p-syllabus {
+.p-contact {
     margin-top: 40px;
 }
 
-.p-contact {
+.p-syllabus {
     margin-top: 40px;
     margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 720px) {
+    .p-subtitle {
+        font-size: 2em;
+    }
+
+    .p-title {
+        font-size: 7em;
+    }
 }
